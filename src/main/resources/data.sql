@@ -1,0 +1,6 @@
+insert Into song(title, artist) values ('Versace on the floor', 'Bruno Mars')
+insert Into song(title, artist) values ('It will rain', 'Bruno Mars')
+insert Into song(title, artist) values ('Break Free', 'Ariana Grande')
+insert Into song(title, artist) values ('Me arrepiento', 'Alex ubago')
+insert Into song(title, artist) values ('A gritos de Esperanza', 'Alex ubago')
+insert Into song(title, artist) values ('Suave', 'Luis Miguel')
