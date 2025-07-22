@@ -7,7 +7,7 @@ import lombok.Data;
 @Entity
 @Data
 @Table(name = "song")
-public class SongEntity {
+public class Song {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

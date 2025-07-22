@@ -3,7 +3,7 @@ package com.train.spring.practice.service;
 
 import com.train.spring.practice.controller.dto.SongRecord;
 import com.train.spring.practice.repository.SongRepository;
-import com.train.spring.practice.repository.entity.SongEntity;
+import com.train.spring.practice.repository.entity.Song;
 import com.train.spring.practice.util.Utils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -22,7 +22,7 @@ public class SongService {
     }
 
     public List<SongRecord> getSongRecords(){
-        List<SongEntity> songEntities = songRepository.findAll();
+        List<Song> songEntities = songRepository.findAll();
 
         return Utils.mySongRecord(songEntities);
 
